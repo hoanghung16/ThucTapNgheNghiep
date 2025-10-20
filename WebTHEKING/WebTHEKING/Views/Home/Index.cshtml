@@ -1,0 +1,118 @@
+﻿@{
+    ViewData["Title"] = "THE KING - Cửa Hàng Điện Thoại ";
+}
+@model List<WebTHEKING.Models.Product>
+<section class="hero-banner">
+    <div class="slider-wrapper">
+        <!-- Slide 1 -->
+        <div class="slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('@Url.Content("~/img/13.jpg")');">
+            <div class="slide-content">
+                <h1>BỘ SƯU TẬP IPHONE MỚI</h1>
+                <p>Trải nghiệm đỉnh cao công nghệ và thiết kế.</p>
+                <a href="phukien.html" class="cta-button">Mua ngay</a>
+            </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('@Url.Content("~/img/27.jpg")');">
+            <div class="slide-content">
+                <h1>SAMSUNG GALAXY S25 ULTRA</h1>
+                <p>Sức mạnh nhiếp ảnh trong tầm tay bạn.</p>
+                <a href="phukien.html" class="cta-button">Khám Phá</a>
+            </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('@Url.Content("~/img/1.jpg")');">
+            <div class="slide-content">
+                <h1>PHỤ KIỆN CHÍNH HÃNG</h1>
+                <p>Ưu đãi đến 30% khi mua kèm điện thoại.</p>
+                <a asp-controller="Product" asp-action="Accessories" class="cta-button">Xem Phụ Kiện</a>
+            </div>
+        </div>
+    </div>
+    <!-- Các nút điều hướng (chấm tròn) -->
+    <div class="slider-dots">
+        <span class="dot active" data-slide="0"></span>
+        <span class="dot" data-slide="1"></span>
+        <span class="dot" data-slide="2"></span>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="grid" style="grid-template-columns: repeat(4, 1fr);">
+            <div class="category-card" style="text-align: center;">
+                <img src="~/img/16.jpg" alt="Điện Thoại Iphone">
+                <h3>Iphone</h3>
+            </div>
+            <div class="category-card" style="text-align: center;">
+                <img src="~/img/17.jpg" alt="Điện Thoại Xiaomi">
+                <h3>Xiaomi</h3>
+            </div>
+            <div class="category-card" style="text-align: center;">
+                <img src="~/img/18.jpg" alt="Điện Thoại SamSung">
+                <h3>SamSung</h3>
+            </div>
+            <div class="category-card" style="text-align: center;">
+                <a asp-controller="Product" asp-action="Accessories"><img src="~/img/14.jpg" alt="Phụ Kiện"></a>
+                <h3>Phụ Kiện</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<hr>
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">Sản Phẩm Bán Chạy Nhất</h2>
+        <div class="grid">
+            @foreach (var product in Model)
+            {
+                <div class="product-card">
+                    @* Tạo link động đến trang chi tiết sản phẩm *@
+                    <a href="/Product/Detail/@product.Id">
+                        <img src="@product.ImageUrl" alt="@product.Name">
+                    </a>
+                    <p class="product-name">@product.Name</p>
+                    <p class="product-price">@product.Price.ToString("N0")đ</p>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<section class="mid-banner">
+    <h2>GIẢM GIÁ 30% CHO TẤT CẢ PHỤ KIỆN</h2>
+    <p>Sử dụng mã: <strong>MODERN30</strong> khi thanh toán</p>
+    <a asp-controller="Product" asp-action="Accessories" class="cta-button" style="background-color: #CDBEA7;">Xem ngay</a>
+</section>
+
+<section class="trust-badges">
+    <div class="container" style="display: flex; justify-content: space-around;">
+        <div>
+            <strong>🚚 Giao hàng miễn phí</strong>
+            <p>Cho đơn hàng từ 500.000đ</p>
+        </div>
+        <div>
+            <strong>🔄 Đổi trả dễ dàng</strong>
+            <p>Trong vòng 30 ngày</p>
+        </div>
+        <div>
+            <strong>💳 Thanh toán bảo mật</strong>
+            <p>100% an toàn</p>
+        </div>
+        <div>
+            <strong>📞 Hỗ trợ 24/7</strong>
+            <p>Luôn sẵn sàng giúp đỡ</p>
+        </div>
+    </div>
+</section>
+
+<section class="section newsletter">
+    <div class="container">
+        <h2 class="section-title">Nhận Ưu Đãi Độc Quyền!</h2>
+        <p>Đăng ký để nhận thông tin về sản phẩm mới và khuyến mãi đặc biệt.</p>
+        <form style="margin-top: 20px;">
+            <input type="email" placeholder="Nhập địa chỉ email của bạn" style="padding: 15px; width: 300px; border: 1px solid #ccc;">
+            <button type="submit" class="cta-button" style="border: none; cursor: pointer;">Đăng ký</button>
+        </form>
+    </div>
+</section>

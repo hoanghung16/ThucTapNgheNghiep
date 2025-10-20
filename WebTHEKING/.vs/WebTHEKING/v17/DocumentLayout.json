@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WEBAPP\\WebTHEKING\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|d:\\webapp\\webtheking\\webtheking\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|solutionrelative:webtheking\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WEBAPP\\WebTHEKING\\WebTHEKING\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebTHEKING\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\WEBAPP\\WebTHEKING\\WebTHEKING\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebTHEKING\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAFQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-15T14:25:32.798Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

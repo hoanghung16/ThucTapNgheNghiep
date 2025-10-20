@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Admin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/styleADMIN.css">
+</head>
+<body>
+    <div class="admin-panel">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>THE KING - Admin</h2>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    @{
+                        // Lấy tên Controller hiện tại từ URL để biết trang nào đang active
+                        var currentController = ViewContext.RouteData.Values["controller"]?.ToString();
+                    }
+
+                    <li class="@(currentController == "Dashboard" ? "active" : "")">
+                        <a asp-area="Admin" asp-controller="Dashboard" asp-action="Index">
+                            Quản Lý Đơn Hàng
+                        </a>
+                    </li>
+
+                    <li class="@(currentController == "ProductAdmin" ? "active" : "")">
+                        <a asp-area="Admin" asp-controller="ProductAdmin" asp-action="Index">
+                            Quản Lý Sản Phẩm
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">Khách Hàng</a>
+                    </li>
+                    <li>
+                        <a href="#">Cài Đặt</a>
+                    </li>
+                    <li>
+                        <a asp-controller="Home" asp-action="Index">
+                            Về Trang Bán Hàng
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            @RenderBody()
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

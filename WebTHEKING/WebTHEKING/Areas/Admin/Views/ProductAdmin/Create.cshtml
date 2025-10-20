@@ -1,0 +1,18 @@
+﻿@model WebTHEKING.Models.Product
+@{
+    ViewData["Title"] = "Thêm Sản phẩm mới";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h1>@ViewData["Title"]</h1>
+<hr />
+<form asp-action="Create" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <partial name="_ProductForm" />
+
+    <div class="form-group mt-3">
+        <input type="submit" value="Tạo mới" class="btn btn-primary" />
+        <a asp-action="Index" class="btn btn-secondary">Quay lại danh sách</a>
+    </div>
+</form>

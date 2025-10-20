@@ -1,4 +1,4 @@
-//Readme
+/Readme
 - Đề tài sử dụng framework .net và sử dụng ASP .net MVC
 - Đồ án thực tập nghề nghiệp đề tài website bán điện thoại với các chức năng như:
 + Login/Register tài khoản ở đây sẽ có 2 loại là ADMIN và COSTUMER

@@ -1,0 +1,91 @@
+﻿@model IEnumerable<WebTHEKING.Models.Product>
+
+@{
+    ViewData["Title"] = "Quản lý Sản phẩm";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<header class="d-flex justify-content-between align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1>@ViewData["Title"]</h1>
+    <a asp-action="Create" class="btn btn-primary">Thêm Sản phẩm mới</a>
+</header>
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>Tên Sản phẩm</th>
+            <th>Giá</th>
+            <th>Loại</th>
+            <th>Danh mục</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Price.ToString("N0")đ</td>
+                <td>@item.Type</td>
+                <td>@item.Category</td>
+                <td class="d-flex align-items-center">
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-secondary me-2">Sửa</a>
+
+                    <button type="button" class="btn btn-sm btn-outline-danger" data-bs-toggle="modal" data-bs-target="#deleteConfirmModal" data-id="@item.Id">
+                        Xóa
+                    </button>
+
+                    <form asp-action="Delete" asp-route-id="@item.Id" method="post" id="deleteForm-@item.Id" class="d-none"></form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="modal fade" id="deleteConfirmModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteModalLabel">Xác nhận Xóa</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Bạn có chắc chắn muốn xóa sản phẩm này không? Hành động này không thể hoàn tác.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                <button type="button" class="btn btn-danger" id="confirmDeleteButton">Xóa</button>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script>
+        // Đoạn code này sẽ chạy khi trang đã tải xong
+        document.addEventListener('DOMContentLoaded', function () {
+
+            // Lấy đối tượng Modal từ HTML
+            var deleteModal = document.getElementById('deleteConfirmModal');
+
+            // Lắng nghe sự kiện KHI MODAL CHUẨN BỊ HIỂN THỊ
+            deleteModal.addEventListener('show.bs.modal', function (event) {
+
+                // Lấy nút "Xóa" đã được click để mở modal
+                var button = event.relatedTarget;
+
+                // Lấy product ID từ thuộc tính data-id của nút đó
+                var productId = button.getAttribute('data-id');
+
+                // Tìm nút "Xóa" màu đỏ BÊN TRONG MODAL
+                var confirmBtn = document.getElementById('confirmDeleteButton');
+
+                // Gán hành động cho nút "Xóa" trong modal
+                confirmBtn.onclick = function () {
+                    // Tìm đúng form xóa ẩn dựa trên product ID
+                    var form = document.getElementById('deleteForm-' + productId);
+                    // Gửi form đó đi
+                    form.submit();
+                }
+            });
+        });
+    </script>
+}

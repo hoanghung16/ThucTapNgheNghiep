@@ -1,0 +1,67 @@
+﻿@model List<WebTHEKING.Models.Product>
+@{
+    ViewData["Title"] = "Phụ Kiện";
+}
+
+<main>
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">PHỤ KIỆN</h2>
+
+            <div class="filter-bar">
+                <div class="filter-options">
+                    <span>Lọc theo:</span>
+                    <select id="category-filter" name="category">
+                        <option value="all">Tất cả</option>
+                        <option value="tainghe">Tai Nghe</option>
+                        <option value="oplung">Ốp Lưng</option>
+                        <option value="daysac">Dây Sạc</option>
+                    </select>
+                </div>
+                <div class="sort-options">
+                    <span>Sắp xếp:</span>
+                    <select id="sort-filter" name="sorting">
+                        <option value="default">Mặc định</option>
+                        <option value="price-asc">Giá tăng dần</option>
+                        <option value="price-desc">Giá giảm dần</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="product-grid" class="grid" style="grid-template-columns: repeat(3, 1fr);">
+                @foreach (var item in Model)
+                {
+                    <div class="product-card" data-category="@item.Category" data-price="@item.Price">
+
+                        @* Kiểm tra nếu có giá gốc thì hiển thị badge Sale *@
+                        @if (item.OriginalPrice.HasValue)
+                        {
+                            <div class="sale-badge">Sale</div>
+                        }
+
+                        <a asp-controller="Product" asp-action="Detail" asp-route-id="@item.Id">
+                            <img src="@Url.Content(item.ImageUrl)" alt="@item.Name">
+                        </a>
+                        <p class="product-name">@item.Name</p>
+
+                        @* Kiểm tra để hiển thị giá gốc và giá sale, hoặc chỉ giá thường *@
+                        @if (item.OriginalPrice.HasValue)
+                        {
+                            <div class="price-container">
+                                <span class="original-price">@item.OriginalPrice.Value.ToString("N0")đ</span>
+                                <span class="sale-price">@item.Price.ToString("N0")đ</span>
+                            </div>
+                        }
+                        else
+                        {
+                            <p class="product-price">@item.Price.ToString("N0")đ</p>
+                        }
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+    @section Scripts {
+        <script src="~/js/phukien.js"></script>
+    }
+</main>

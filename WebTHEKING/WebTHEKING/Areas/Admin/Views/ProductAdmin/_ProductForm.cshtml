@@ -1,0 +1,41 @@
+﻿@model WebTHEKING.Models.Product
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="form-group mb-3">
+            <label asp-for="Name" class="control-label"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="form-group mb-3">
+            <label asp-for="Description" class="control-label"></label>
+            <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div class="form-group mb-3">
+            <label asp-for="Price" class="control-label"></label>
+            <input asp-for="Price" class="form-control" type="number" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+        <div class="form-group mb-3">
+            <label asp-for="OriginalPrice" class="control-label">(Giá gốc nếu có)</label>
+            <input asp-for="OriginalPrice" class="form-control" type="number" />
+            <span asp-validation-for="OriginalPrice" class="text-danger"></span>
+        </div>
+        <div class="form-group mb-3">
+            <label asp-for="ImageUrl" class="control-label">Đường dẫn hình ảnh</label>
+            <input asp-for="ImageUrl" class="form-control" placeholder="/img/ten-file-anh.jpg" />
+            <span asp-validation-for="ImageUrl" class="text-danger"></span>
+        </div>
+        <div class="form-group mb-3">
+            <label asp-for="Type" class="control-label">Loại sản phẩm</label>
+            <select asp-for="Type" asp-items="Html.GetEnumSelectList<WebTHEKING.Enums.ProductType>()" class="form-control"></select>
+            <span asp-validation-for="Type" class="text-danger"></span>
+        </div>
+        <div class="form-group mb-3">
+            <label asp-for="Category" class="control-label">Danh mục</label>
+            <input asp-for="Category" class="form-control" placeholder="Apple, Samsung, tainghe, oplung..." />
+            <span asp-validation-for="Category" class="text-danger"></span>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+﻿@model List<WebTHEKING.Models.Product>
+
+<main>
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">@ViewData["Title"]</h2>
+            <div class="grid" style="grid-template-columns: repeat(3, 1fr);">
+                @foreach (var product in Model)
+                {
+                    <div class="product-card">
+                        <div class="sale-badge">Sale</div>
+                        <a asp-controller="Product" asp-action="Detail" asp-route-id="@product.Id">
+                            <img class="product-sale" src="@Url.Content(product.ImageUrl)" alt="@product.Name">
+                        </a>
+                        <p class="product-name">@product.Name</p>
+                        <div class="price-container">
+                            <span class="original-price">@product.Price.ToString("N0")đ</span>
+                            <span class="sale-price">@( (product.Price * 0.9m).ToString("N0") )đ</span>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+</main>

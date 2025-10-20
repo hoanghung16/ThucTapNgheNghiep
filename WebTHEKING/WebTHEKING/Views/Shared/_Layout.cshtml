@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE KING - Cửa hàng điện thoại</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/style.css">
+
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <a asp-controller="Home" asp-action="Index" class="logo">THE KING</a>
+            <nav>
+                <a asp-controller="Home" asp-action="Index">Trang chủ</a>
+                <a asp-controller="Product" asp-action="Sale" class="sale">Sale</a>
+            </nav>
+            <div class="header-icons">
+                <div class="search-container">
+                </div>
+
+                @if (User.Identity.IsAuthenticated)
+                {
+                    // Kiểm tra xem người dùng có phải là Admin không
+                    @if (User.IsInRole("Admin"))
+                    {
+                        // Nếu là Admin, hiển thị link đến trang quản trị
+                        <a asp-area="Admin" asp-controller="Dashboard" asp-action="Index" class="nav-link" title="Trang Quản trị">
+                            ⚙️ Quản trị
+                        </a>
+                    }
+                    // Link đến trang thông tin cá nhân (hiển thị cho tất cả người dùng đã đăng nhập)
+                    <a asp-controller="Account" asp-action="Profile" class="nav-link">
+                        👤 Xin chào, @User.FindFirst("FullName")?.Value
+                    </a>
+                }
+                else
+                {
+                    <a asp-controller="Account" asp-action="Login">👤 Đăng nhập</a>
+                }
+
+                <a href="Giohang.html">👜Giỏ Hàng</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        @RenderBody()
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h4>VỀ THE KING</h4>
+                    <ul>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Hệ thống cửa hàng</a></li>
+                        <li><a href="#">Tuyển dụng</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>HỖ TRỢ KHÁCH HÀNG</h4>
+                    <ul>
+                        <li><a href="#">Câu hỏi thường gặp (FAQ)</a></li>
+                        <li><a href="#">Chính sách vận chuyển</a></li>
+                        <li><a href="#">Chính sách đổi trả</a></li>
+                        <li><a href="#">Hướng dẫn chọn size</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>THÔNG TIN PHÁP LÝ</h4>
+                    <ul>
+                        <li><a href="#">Điều khoản dịch vụ</a></li>
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>KẾT NỐI VỚI CHÚNG TÔI</h4>
+                    <p>Email: contact@themodernist.vn</p>
+                    <p>Hotline: 1900 1234</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 The Modernist. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="~/js/index.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
