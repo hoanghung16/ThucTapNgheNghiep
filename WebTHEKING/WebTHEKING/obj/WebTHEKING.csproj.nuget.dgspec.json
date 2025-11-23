@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WEBAPP\\WebTHEKING\\WebTHEKING\\WebTHEKING.csproj": {}
+    "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\WebTHEKING.csproj": {}
   },
   "projects": {
-    "D:\\WEBAPP\\WebTHEKING\\WebTHEKING\\WebTHEKING.csproj": {
+    "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\WebTHEKING.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WEBAPP\\WebTHEKING\\WebTHEKING\\WebTHEKING.csproj",
+        "projectUniqueName": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\WebTHEKING.csproj",
         "projectName": "WebTHEKING",
-        "projectPath": "D:\\WEBAPP\\WebTHEKING\\WebTHEKING\\WebTHEKING.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\WEBAPP\\WebTHEKING\\WebTHEKING\\obj\\",
+        "projectPath": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\WebTHEKING.csproj",
+        "packagesPath": "C:\\Users\\weew3\\.nuget\\packages\\",
+        "outputPath": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\weew3\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -84,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

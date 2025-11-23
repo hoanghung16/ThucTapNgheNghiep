@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebTHEKING")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23e6a93041ab209d80ba4c054a69b10a475dbcec")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebTHEKING")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebTHEKING")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

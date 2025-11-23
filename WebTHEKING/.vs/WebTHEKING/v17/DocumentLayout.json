@@ -1,10 +1,94 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\WEBAPP\\WebTHEKING\\",
+  "WorkspaceRootPath": "D:\\ThucTap\\WebTHEKING\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|d:\\webapp\\webtheking\\webtheking\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|d:\\thuctap\\webtheking\\webtheking\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|solutionrelative:webtheking\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|d:\\thuctap\\webtheking\\webtheking\\areas\\admin\\views\\productadmin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|solutionrelative:webtheking\\areas\\admin\\views\\productadmin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|d:\\thuctap\\webtheking\\webtheking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|solutionrelative:webtheking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|d:\\thuctap\\webtheking\\webtheking\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|solutionrelative:webtheking\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|d:\\thuctap\\webtheking\\webtheking\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|solutionrelative:webtheking\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|d:\\thuctap\\webtheking\\webtheking\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|solutionrelative:webtheking\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|d:\\thuctap\\webtheking\\webtheking\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|solutionrelative:webtheking\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|d:\\thuctap\\webtheking\\webtheking\\areas\\admin\\views\\productadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|solutionrelative:webtheking\\areas\\admin\\views\\productadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|d:\\thuctap\\webtheking\\webtheking\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|solutionrelative:webtheking\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|d:\\thuctap\\webtheking\\webtheking\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|solutionrelative:webtheking\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|d:\\thuctap\\webtheking\\webtheking\\areas\\admin\\controllers\\productadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|solutionrelative:webtheking\\areas\\admin\\controllers\\productadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|d:\\thuctap\\webtheking\\webtheking\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|solutionrelative:webtheking\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|d:\\thuctap\\webtheking\\webtheking\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|solutionrelative:webtheking\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|d:\\thuctap\\webtheking\\webtheking\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|solutionrelative:webtheking\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|d:\\thuctap\\webtheking\\webtheking\\migrations\\20251015055856_hung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|solutionrelative:webtheking\\migrations\\20251015055856_hung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|d:\\thuctap\\webtheking\\webtheking\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|solutionrelative:webtheking\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|d:\\thuctap\\webtheking\\webtheking\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|solutionrelative:webtheking\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|d:\\thuctap\\webtheking\\webtheking\\viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|solutionrelative:webtheking\\viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|d:\\thuctap\\webtheking\\webtheking\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|solutionrelative:webtheking\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|d:\\thuctap\\webtheking\\webtheking\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|solutionrelative:webtheking\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|d:\\thuctap\\webtheking\\webtheking\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|solutionrelative:webtheking\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|d:\\thuctap\\webtheking\\webtheking\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3CDD35B7-67A9-462A-AAEF-A910F63ACE1C}|WebTHEKING\\WebTHEKING.csproj|solutionrelative:webtheking\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +98,286 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Areas\\Admin\\Views\\ProductAdmin\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebTHEKING\\Areas\\Admin\\Views\\ProductAdmin\\Create.cshtml",
+              "ToolTip": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Areas\\Admin\\Views\\ProductAdmin\\Create.cshtml",
+              "RelativeToolTip": "WebTHEKING\\Areas\\Admin\\Views\\ProductAdmin\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T03:53:05.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebTHEKING\\appsettings.Development.json",
+              "ToolTip": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\appsettings.Development.json",
+              "RelativeToolTip": "WebTHEKING\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-31T03:50:41.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebTHEKING\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebTHEKING\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T02:46:07.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebTHEKING\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebTHEKING\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T02:46:04.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "WebTHEKING\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "WebTHEKING\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T02:42:37.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\WEBAPP\\WebTHEKING\\WebTHEKING\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebTHEKING\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "WebTHEKING\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T02:44:01.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Program.cs",
+              "RelativeDocumentMoniker": "WebTHEKING\\Program.cs",
+              "ToolTip": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Program.cs",
+              "RelativeToolTip": "WebTHEKING\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABAAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T13:12:21.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Areas\\Admin\\Views\\ProductAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebTHEKING\\Areas\\Admin\\Views\\ProductAdmin\\Index.cshtml",
+              "ToolTip": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Areas\\Admin\\Views\\ProductAdmin\\Index.cshtml",
+              "RelativeToolTip": "WebTHEKING\\Areas\\Admin\\Views\\ProductAdmin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T02:46:52.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "WebTHEKING\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "WebTHEKING\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T13:14:10.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\appsettings.json",
+              "RelativeDocumentMoniker": "WebTHEKING\\appsettings.json",
+              "ToolTip": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\appsettings.json",
+              "RelativeToolTip": "WebTHEKING\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-21T13:21:52.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductAdminController.cs",
+              "DocumentMoniker": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Areas\\Admin\\Controllers\\ProductAdminController.cs",
+              "RelativeDocumentMoniker": "WebTHEKING\\Areas\\Admin\\Controllers\\ProductAdminController.cs",
+              "ToolTip": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Areas\\Admin\\Controllers\\ProductAdminController.cs",
+              "RelativeToolTip": "WebTHEKING\\Areas\\Admin\\Controllers\\ProductAdminController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T02:46:21.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebTHEKING\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "WebTHEKING\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T02:41:17.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebTHEKING\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebTHEKING\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T02:38:37.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20251015055856_hung.cs",
+              "DocumentMoniker": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Migrations\\20251015055856_hung.cs",
+              "RelativeDocumentMoniker": "WebTHEKING\\Migrations\\20251015055856_hung.cs",
+              "ToolTip": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Migrations\\20251015055856_hung.cs",
+              "RelativeToolTip": "WebTHEKING\\Migrations\\20251015055856_hung.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T13:14:53.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\ViewModels\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "WebTHEKING\\ViewModels\\ErrorViewModel.cs",
+              "ToolTip": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\ViewModels\\ErrorViewModel.cs",
+              "RelativeToolTip": "WebTHEKING\\ViewModels\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T13:14:29.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "WebTHEKING\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\WEBAPP\\WebTHEKING\\WebTHEKING\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "WebTHEKING\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAFQAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-15T14:25:32.798Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "WebTHEKING\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "WebTHEKING\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T13:14:39.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebTHEKING\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebTHEKING\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T13:14:14.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WebTHEKING\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WebTHEKING\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T13:10:19.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebTHEKING\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebTHEKING\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T13:14:03.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebTHEKING\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebTHEKING\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T13:13:59.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "WebTHEKING\\ScaffoldingReadMe.txt",
+              "ToolTip": "D:\\ThucTap\\WebTHEKING\\WebTHEKING\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "WebTHEKING\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-10-21T13:13:37.05Z"
             }
           ]
         }
